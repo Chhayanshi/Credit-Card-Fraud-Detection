@@ -25,6 +25,7 @@ The dataset is taken from kaggle [here](https://www.kaggle.com/datasets/nelgiriy
 3. matplotlib
 4. seaborn
 5. plotly
+6. scikit-learn
 
 # Data Preprocessing
 By utilizing the power of Pandas, we are able to effortlessly load the dataset from a CSV file. We then proceed to meticulously clean the data by checking for any missing values and removing any rows containing such data. Moreover, we delve deep into the dataset to gain a profound understanding of its structure and distribution, thereby enabling us to extract valuable insights that can help drive progress and innovation.
@@ -35,12 +36,10 @@ In this section, we will conduct a thorough analysis of the data to gain a compr
 # Model Training and Evaluation
 To detect credit card fraud, we employ various machine learning algorithms. We train and evaluate the following models:
 
+Logistic Regression 
 Random Forest Classifier
-AdaBoost Classifier
-CatBoost Classifier
-Support Vector Machine (SVM)
-LightGBM Classifier
-XGBoost Classifier
+K-mean clustering
+
 We use evaluation metrics like ROC AUC score to assess the performance of each model and select the best one for fraud detection.
 
 # Usage
