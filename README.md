@@ -46,7 +46,7 @@ We use evaluation metrics like ROC AUC score to assess the performance of each m
 To use this project, follow these steps:
 
 1. Clone the repository.
-2. Install the required libraries mentioned in the requirements.txt file.
+2. Install the required libraries mentioned above.
 3. Download the credit card fraud dataset.
 4. Run the Jupyter Notebook or Python script to preprocess the data, train the models, and evaluate their performance.
 5. Adjust the hyperparameters, algorithms, or feature engineering techniques based on your requirements.
